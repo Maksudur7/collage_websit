@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gov Polytechnic computer Tecnology</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="top">
+            <ul>
+                <li><a href="#"><i class="fa-sharp fa-light fa-phone-volume"></i></a></li>
+                <li><a href="#">01315906086</a></li>
+                <li><a href="#"><i class="fa-thin fa-envelopes-bulk"></i></a></li>
+                <li><a href="maksudurr538@gmail.com">maksudurr538@gmail.com</a></li>
+            </ul>
+        </div>
+        
+        <nav>
+            <h1><img src="./bpilogo project.png" alt=""></h1>
+            <ul class="demo">
+                <li class="second-demo"><a href="index.html">Home </a></li>
+                <li class="second-demo slid-demo">
+                    <details>
+                        <summary>About Us</summary>
+                        <p id="pTag"><a href="history.html">History</a></p>
+                        <p id="pTag"><a href="information.html">BPI Information</a></p>
+                        <p id="pTag"><a href="#">Employee</a></p>
+                    </details>
+                </li>
+                <li class="second-demo slid-demo">
+                    <details>
+                        <summary>Employee</summary>
+                        <p id="pTag"><a href="techers.html">Techers</a></p>
+                        <p id="pTag"><a href="staff.html">Staff</a></p>
+                    </details>
+                </li>
+                <li class="second-demo slid-demo">
+                    <details>
+                        <summary>Students</summary>
+                        <!-- with attendence -->
+                        <p id="pTag"><a href="#">1st Semester</a></p> 
+                        <p id="pTag"><a href="#">2nd Semester</a></p>
+                        <p id="pTag"><a href="#">3rd Semester</a></p>
+                        <p id="pTag"><a href="#">4th Semester</a></p>
+                        <p id="pTag"><a href="#">6th Semester</a></p>
+                        <p id="pTag"><a href="#">7th Semester</a></p>
+                        <p id="pTag"><a href="#">8th Semester</a></p>
+                    </details>
+                </li>
+                <li class="second-demo slid-demo"><a href="#"></a>
+                    <details>
+                        <summary>Results</summary>
+                        <p id="pTag"><a href="#">1st Semester</a></p> 
+                        <p id="pTag"><a href="#">2nd Semester</a></p>
+                        <p id="pTag"><a href="#">3rd Semester</a></p>
+                        <p id="pTag"><a href="#">4th Semester</a></p>
+                        <p id="pTag"><a href="#">6th Semester</a></p>
+                        <p id="pTag"><a href="#">7th Semester</a></p>
+                        <p id="pTag"><a href="#">8th Semester</a></p>
+                    </details>
+                </li>
+                <li class="second-demo"><a href="notish.html">Notice</a></li>
+                <li class="second-demo"><a href="#">Academic calender</a></li>
+                <li class="second-demo"><a href="galary.html">Gallery</a></li>
+                <li class="second-demo"><a href="#">Developers</a></li>
+            </ul>
+        </nav>
+        <div class="top-style">
+            <ul>
+                <li><a href="#">Login/Register</a></li>
+                <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            <button id="drackmood" >Dark mood</button>
+        </div>
+    </header>
+    <!-- ==============================================================Section========================================= -->
+    <div class="History" id="History">
+        <section class="History-all">
+            <div class="left-style">
+                <h1>Notice</h1>
+            </div>
+             
+            <div class="all-sit">
+                <div class="left-sit">
+                    <h2 style="text-align:center">Notice Bord</h2>
+
+                    <div class="row">
+                      <div class="column">
+                        <img src="computerTecnology.jpeg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                      </div>
+                      <div class="column">
+                        <img src="./image1.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                      </div>
+                      <div class="column">
+                        <img src="./image2.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                      </div>
+                      <div class="column">
+                        <img src="./image3.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                      </div>
+
+                    </div>
+
+                    <div id="myModal" class="modal">
+                      <span class="close cursor" onclick="closeModal()">&times;</span>
+                      <div class="modal-content">
+                    
+                        <div class="notishs">
+                          <div class="numbertext">1 / 4</div>
+                          <img src="computerTecnology.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="notishs">
+                          <div class="numbertext">2 / 4</div>
+                          <img src="./image1.jpg" style="width:100%">
+                        </div>
+                    
+                        <div class="notishs">
+                          <div class="numbertext">3 / 4</div>
+                          <img src="./image2.jpg" style="width:100%">
+                        </div>
+
+                        <div class="notishs">
+                          <div class="numbertext">4 / 4</div>
+                          <img src="./image3.jpg" style="width:100%">
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                        <div class="caption-container">
+                          <p id="caption"></p>
+                        </div>
+                    
+                    
+                        <div class="column">
+                          <img class="img-demo cursor" src="computerTecnology.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                        </div>
+                        <div class="column">
+                          <img class="img-demo cursor" src="./image1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+                        </div>
+                        <div class="column">
+                          <img class="img-demo cursor" src="./image2.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                          <img class="img-demo cursor" src="./image3.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </section>
+    </div>
+<!-- ==============================================================Footer========================================= -->
+<hr>
+    <div class="footer">
+        <footer>
+            <div class="footerDittles">
+                <h1>About us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, esse deleniti placeat nisi suscipit neque hic, illo ipsam aspernatur officiis praesentium labore mollitia quo explicabo deserunt sed autem enim expedita?</p>
+            </div>
+            <div class="footerDittles">
+                <h1>Contuct Us</h1>
+                <ul>
+                    <li><a href="#">01315906086</a></li>
+                    <li><a href="#">maksudurrahamanmishu7@gmail.com</a></li>
+                    <li><a href="#">Rupatoli Busstant</a></li>
+                </ul>
+            </div>
+            <div class="footerDittles">
+                <h1>Our Services</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+            <div class="footerDittles">
+                <h1>Quick Clik</h1>
+                <ul>
+                    <li><a href="#">icone</a></li>
+                    <li><a href="#">icone</a></li>
+                    <li><a href="#">icone</a></li>
+                </ul>
+            </div>
+        </footer>
+   </div>
+    <script src="./app.js"></script>
+    <script>
+        function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var notice = 1;
+showSlides(notice);
+
+function plusSlides(n) {
+  showSlides(notice += n);
+}
+
+function currentSlide(n) {
+  showSlides(notice = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("notishs");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {notice = 1}
+  if (n < 1) {notice = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" ntive", "");
+  }
+  slides[notice-1].style.display = "block";
+  dots[notice-1].className += " ntive";
+  captionText.innerHTML = dots[notice-1].alt;
+}
+    </script>
+</body>
+</html>
