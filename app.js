@@ -37,5 +37,3 @@ function showSlides() {
   setTimeout(showSlides, 4000); // Change image every 4 seconds
 }
 
-// ----------------------------------------------galary part-------------------------------------------------
-// Get the elements with class="column"
