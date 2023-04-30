@@ -84,75 +84,12 @@
     <div class="History" id="History">
         <section class="History-all">
             <div class="left-style">
-                <h1>Notice</h1>
+                <h1>6th Results</h1>
             </div>
              
             <div class="all-sit">
                 <div class="left-sit">
-                    <h2 style="text-align:center">Notice Bord</h2>
-
-                    <div class="row">
-                      <div class="column">
-                        <img src="computerTecnology.jpeg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-                      </div>
-                      <div class="column">
-                        <img src="./image1.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-                      </div>
-                      <div class="column">
-                        <img src="./image2.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-                      </div>
-                      <div class="column">
-                        <img src="./image3.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-                      </div>
-
-                    </div>
-
-                    <div id="myModal" class="modal">
-                      <span class="close cursor" onclick="closeModal()">&times;</span>
-                      <div class="modal-content">
-                    
-                        <div class="notishs">
-                          <div class="numbertext">1 / 4</div>
-                          <img src="computerTecnology.jpeg" style="width:100%">
-                        </div>
-                    
-                        <div class="notishs">
-                          <div class="numbertext">2 / 4</div>
-                          <img src="./image1.jpg" style="width:100%">
-                        </div>
-                    
-                        <div class="notishs">
-                          <div class="numbertext">3 / 4</div>
-                          <img src="./image2.jpg" style="width:100%">
-                        </div>
-
-                        <div class="notishs">
-                          <div class="numbertext">4 / 4</div>
-                          <img src="./image3.jpg" style="width:100%">
-                        </div>
-
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    
-                        <div class="caption-container">
-                          <p id="caption"></p>
-                        </div>
-                    
-                    
-                        <div class="column">
-                          <img class="img-demo cursor" src="computerTecnology.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
-                        </div>
-                        <div class="column">
-                          <img class="img-demo cursor" src="./image1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
-                        </div>
-                        <div class="column">
-                          <img class="img-demo cursor" src="./image2.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-                        </div>
-                        <div class="column">
-                          <img class="img-demo cursor" src="./image3.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-                        </div>
-                      </div>
-                    </div>
+                    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQgfaHnV4uzcM8u3CVndZfqvhrcBiL2z6eOa_5c6X_EDczXjmjNZDakqcTUwQB-SSRRVCXsRePml1Rg/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" style="width: 1100px; height: 2200px;"></iframe>
                 </div>
             </div>
             
@@ -194,43 +131,5 @@
         </footer>
    </div>
     <script src="./app.js"></script>
-    <script>
-        function openModal() {
-  document.getElementById("myModal").style.display = "block";
-}
-
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
-}
-
-var notice = 1;
-showSlides(notice);
-
-function plusSlides(n) {
-  showSlides(notice += n);
-}
-
-function currentSlide(n) {
-  showSlides(notice = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("notishs");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {notice = 1}
-  if (n < 1) {notice = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" ntive", "");
-  }
-  slides[notice-1].style.display = "block";
-  dots[notice-1].className += " ntive";
-  captionText.innerHTML = dots[notice-1].alt;
-}
-    </script>
 </body>
 </html>
