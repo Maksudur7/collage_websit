@@ -564,6 +564,79 @@ footer{
       margin: 10px 10px;
     }
     .footerDittles{
+      width: 100%;
+    }
+    .footerDittles ul{
+      margin: 0px 5px 0px -40px;
+      text-align: center;
+      overflow: hidden;
+    }
+/* --------------------------------------------------------------Home----------------------------------------------- */
+    .lorem {
+      padding: 1px 0px 50px 10px;
+      width: 100%;
+      background-color: rgb(249 250 215 / 28%);
+      z-index: -1;
+      margin-top: -358px;
+      color: var(--secondary-color);
+    }
+    .lorem h1{
+      font-size: 30px;
+    }
+    .computerTecnology {
+      background-color: darkslategrey;
+      color: white;
+      height: 210px;
+      width: 100%;
+      margin-top: 222px;
+    }
+    .computerTecnology .all-sit{
+      display: block;
+      padding: 0;
+    }
+    .computerTecnology .left-sit{
+      padding: 10px;
+      margin-top: -95px;
+    }
+    .computerTecnology .rit-sit {
+      padding: 5px 0px 5px 0px;
+      margin-top: 40px;
+    }
+    .computerTecnology .rit-sit img{
+      height: 200px;
+      width: 100%;
+    }
+    .left-style {
+      height: 30px;
+      width: 40%;
+      background-color: greenyellow;
+      border-radius: 0% 50px 0% 0%;
+      text-align: center;
+      color: black;
+      font-size: 0.5rem;
+      margin-top: -420px;
+    }
+    .left-style h1 {
+      margin-left: 0px;
+    }
+
+  }
+  /* --------------------------------------------------------Responsive for tablet------------------------------------------------ */
+  @media only screen and (min-width: 768px) {
+    header{
+      display: none;
+    }
+    /* ------------------------------------------------------futer contant----------------------------------------- */
+    hr{
+      margin-top: 200px;
+    }
+    footer{
+      display: block;
+      color: var(--secondary-color);
+      position: relative;
+      margin: 10px 10px;
+    }
+    .footerDittles{
       width: 258px;
     }
     .footerDittles ul{
@@ -572,43 +645,51 @@ footer{
       overflow: hidden;
     }
 /* --------------------------------------------------------------Home----------------------------------------------- */
-  .lorem {
-    padding: 1px 0px 50px 10px;
-    width: 100%;
-    background-color: rgb(249 250 215 / 28%);
-    z-index: -1;
-    margin-top: -458px;
-    color: var(--secondary-color);
-  }
-  .lorem h1{
-    font-size: 30px;
-  }
-  .computerTecnology .all-sit{
-    display: block;
-    padding: 0;
-  }
-  .computerTecnology .left-sit{
-    padding: 10px;
-  }
-  .computerTecnology .rit-sit {
-    padding: 5px 0px 5px 0px;
-  }
-  .computerTecnology .rit-sit img{
-    height: 200px;
-    width: 280px;
-  }
-  .left-style {
-    height: 30px;
-    width: 40%;
-    background-color: greenyellow;
-    border-radius: 0% 50px 0% 0%;
-    text-align: center;
-    color: black;
-    font-size: 0.5rem;
-    margin-top: -431px;
-  }
-  .left-style h1 {
-    margin-left: 0px;
-  }
+    .lorem {
+      padding: 1px 0px 50px 10px;
+      width: 100%;
+      background-color: rgb(249 250 215 / 28%);
+      z-index: -1;
+      margin-top: -458px;
+      color: var(--secondary-color);
+    }
+    .lorem h1{
+      font-size: 30px;
+    }
+    .computerTecnology {
+      background-color: darkslategrey;
+      color: white;
+      height: 210px;
+      width: 100%;
+      margin-top: 222px;
+    }
+    .computerTecnology .all-sit{
+      display: block;
+      padding: 0;
+    }
+    .computerTecnology .left-sit{
+      padding: 10px;
+      margin-top: 300px;
+    }
+    .computerTecnology .rit-sit {
+      padding: 5px 0px 5px 0px;
+    }
+    .computerTecnology .rit-sit img{
+      height: 200px;
+      width: 280px;
+    }
+    .left-style {
+      height: 30px;
+      width: 40%;
+      background-color: greenyellow;
+      border-radius: 0% 50px 0% 0%;
+      text-align: center;
+      color: black;
+      font-size: 0.5rem;
+      margin-top: -393px;
+    }
+    .left-style h1 {
+      margin-left: 0px;
+    }
 
   }
