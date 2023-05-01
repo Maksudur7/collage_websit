@@ -133,6 +133,9 @@ nav h1 img{
     width: 100px;
     margin-top: -39px;
 }
+#check{
+  display: none;
+}
 /* .active{
     background-color: var(--praymary-color);
     color: var(--secondary-color);
@@ -550,9 +553,63 @@ footer{
   /* --------------------------------------------Responsive for mobil phone----------------------------------------------------- */
   @media only screen and (max-width: 600px) {
     /* ---------------------------------------------------heder content---------------------------------------------- */
-    header{
+    .navber{  
+      height: 100%;
+      width: 250px;
+      display: block;
+      position: fixed;
+      left: -250px;
+      
+    }
+  #check:checked ~ .navber{
+      left: 0;
+    }
+    .top{
       display: none;
     }
+    .top-style{
+      display: none;
+    }
+    nav{
+      height: 100%;
+      display: block;
+      padding: 0px 15px;
+      position: fixed;
+      overflow-y: scroll;
+    }
+    nav ul li{
+      border: 1px solid cyan;
+      margin: 5px;
+    }
+    nav h1{
+      border: none;
+      width: 0px;
+      margin: 50px 0px 0px 0px;
+    }
+    .demo{
+      display: block;
+      text-align: start;
+      margin: -20;
+      padding: 0;
+      width: 250px;
+    }
+    .second-demo{
+      width: 195px;
+      background-color: var(--praymary-color);
+    }
+    .thrdline{
+      margin-left: 440px;
+      margin-top: 20px;
+      position: fixed;
+      color: cyan;
+    }
+    #check{
+      display: block;
+    }
+    nav i{
+      margin: 10px 0px 0px 230px;
+    }
+ 
     /* ------------------------------------------------------futer contant----------------------------------------- */
     hr{
       margin-top: 200px;
@@ -569,7 +626,6 @@ footer{
     .footerDittles ul{
       margin: 0px 5px 0px -40px;
       text-align: center;
-      overflow: hidden;
     }
 /* --------------------------------------------------------------Home----------------------------------------------- */
     .lorem {
@@ -613,14 +669,14 @@ footer{
       border-radius: 0% 50px 0% 0%;
       text-align: center;
       color: black;
-      font-size: 0.5rem;
+      font-size: 11px;
       margin-top: -420px;
     }
     .left-style h1 {
-      margin-left: 0px;
+      margin: 11px 0px 0px 0px;
+      padding-top: 5px;
     }
 
   }
   /* --------------------------------------------------------Responsive for tablet------------------------------------------------ */
-  
   
