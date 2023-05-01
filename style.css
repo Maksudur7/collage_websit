@@ -250,33 +250,7 @@ img{
     height: 200px;
     
 }
-/* -----------------------------------footer----------------------------- */
-footer{
-    display: flex;
-    margin: 30px 150px;
-    color: var(--secondary-color);
-    position: relative;
-}
-.footerDittles{
-    width: 290px;
-}
-.footerDittles h1{
-    text-align: center;
-   
-}
-.footerDittles ul li {
-    list-style: none;
-    margin-bottom: 10px;
-}
-.footerDittles ul li a{
-    text-decoration: none;
-    color: var(--secondary-color);
-}
-.img-slide{
-    background-size: cover;
-    z-index: -1;
-    position: relative;
-}
+
 /* -----------------------------------------History part---------------------- */
 .History-all{
     height: 100%;
@@ -546,5 +520,95 @@ footer{
     background-color: #666;
     color: white;
   }
-  /* -------------------------------------------------Calander----------------------------------------------------- */
-  
+  /* -----------------------------------footer----------------------------- */
+footer{
+  display: flex;
+  margin: 30px 150px;
+  color: var(--secondary-color);
+  position: relative;
+}
+.footerDittles{
+  width: 290px;
+}
+.footerDittles h1{
+  text-align: center;
+ 
+}
+.footerDittles ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.footerDittles ul li a{
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.img-slide{
+  background-size: cover;
+  z-index: -1;
+  position: relative;
+}
+  /* --------------------------------------------Responsive for mobil phone----------------------------------------------------- */
+  @media only screen and (max-width: 600px) {
+    /* ---------------------------------------------------heder content---------------------------------------------- */
+    header{
+      display: none;
+    }
+    /* ------------------------------------------------------futer contant----------------------------------------- */
+    hr{
+      margin-top: 200px;
+    }
+    footer{
+      display: block;
+      color: var(--secondary-color);
+      position: relative;
+      margin: 10px 10px;
+    }
+    .footerDittles{
+      width: 258px;
+    }
+    .footerDittles ul{
+      margin: 0px 5px 0px -40px;
+      text-align: center;
+      overflow: hidden;
+    }
+/* --------------------------------------------------------------Home----------------------------------------------- */
+  .lorem {
+    padding: 1px 0px 50px 10px;
+    width: 100%;
+    background-color: rgb(249 250 215 / 28%);
+    z-index: -1;
+    margin-top: -458px;
+    color: var(--secondary-color);
+  }
+  .lorem h1{
+    font-size: 30px;
+  }
+  .computerTecnology .all-sit{
+    display: block;
+    padding: 0;
+  }
+  .computerTecnology .left-sit{
+    padding: 10px;
+  }
+  .computerTecnology .rit-sit {
+    padding: 5px 0px 5px 0px;
+  }
+  .computerTecnology .rit-sit img{
+    height: 200px;
+    width: 280px;
+  }
+  .left-style {
+    height: 30px;
+    width: 40%;
+    background-color: greenyellow;
+    border-radius: 0% 50px 0% 0%;
+    text-align: center;
+    color: black;
+    font-size: 0.5rem;
+    margin-top: -431px;
+  }
+  .left-style h1 {
+    margin-left: 0px;
+  }
+
+  }
