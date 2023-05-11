@@ -54,7 +54,7 @@ header{
 .top-style{
     height: 40px;
     width: 50%;
-    background-color: greenyellow;
+    background-color: #33FF33;
     margin-left: 50%;
     margin-top: -90px;
     border-radius: 50px 0px 0px 0px;
@@ -93,7 +93,7 @@ nav{
     background-color: var(--praymary-color);
     color: var(--secondary-color);
     height: 60px;
-    border: 2px solid cyan;
+    border: 2px solid var(--secondary-color);
 }
 
 nav ul li a{
@@ -118,14 +118,14 @@ nav ul li{
     margin-top: 19px;
     background-color: var(--praymary-color);
     padding: 3px;
-    border: 1px solid cyan;
+    border: 1px solid var(--secondary-color);
 }
 nav h1{
     margin-top: 56px;
     height: 56px;
     width: 103px;
     background-color: var(--praymary-color);
-    border: 2px solid cyan;
+    border: 2px solid var(--secondary-color);
     border-style: none solid solid solid;
 }
 nav h1 img{
@@ -140,6 +140,17 @@ nav h1 img{
     background-color: var(--praymary-color);
     color: var(--secondary-color);
 } */
+
+/*------------------------------------------marque----------------------*/
+marquee{
+  font-size: 2rem;
+  font-weight: 200;
+  position: fixed;
+  background-color: var(--praymary-color);
+  height: 54px;
+  padding-top: 5px;
+  color: #33FF33;
+}
 /* ----------------------------------------------------Home------------------------------ */
 /* Slideshow container */
 .slideshow-container {
@@ -147,6 +158,7 @@ nav h1 img{
   position: relative;
   margin: auto;
   width: 100%; 
+  margin-top: 90px;
 }
 
 /* Next & previous buttons */
@@ -216,7 +228,7 @@ img{
 .lorem{
     padding:15px 150px 50px 150px;
     width: 100%;
-    background-color: rgba(250, 235, 215, 0.356);
+    background-color: rgba(255, 255, 255, 0.144);
     z-index: -1;
     margin-top: -300px;
     color: var(--secondary-color);
@@ -226,13 +238,13 @@ img{
     color: white;
     height: 210px;
     width: 100%;
-    margin-top: 100px;
-    
+    margin-top: 30px;
+    position: static;
 }
 .left-style{
     height: 50px;
     width: 40%;
-    background-color:greenyellow ;
+    background-color:#33FF33 ;
     border-radius: 0% 50px 0% 0%;
     margin-top: -265px;
     text-align: center;
@@ -260,11 +272,12 @@ img{
     width: 100%;
     padding-top: 330px;
     color: var(--secondary-color);
+    margin-top: 90px;
 }
 .left-style{
     height: 50px;
     width: 40%;
-    background-color:greenyellow ;
+    background-color:#33FF33 ;
     border-radius: 0% 50px 0% 0%;
     text-align: center;
     color: black;
@@ -559,7 +572,7 @@ footer{
       display: block;
       position: fixed;
       left: -250px;
-      
+      top: 0;
     }
   #check:checked ~ .navber{
       left: 0;
@@ -578,7 +591,7 @@ footer{
       overflow-y: scroll;
     }
     nav ul li{
-      border: 1px solid cyan;
+      border: 1px solid var(--secondary-color);
       margin: 5px;
     }
     nav h1{
@@ -591,7 +604,7 @@ footer{
       text-align: start;
       margin: -20;
       padding: 0;
-      width: 250px;
+      width: 200px;
     }
     .second-demo{
       width: 195px;
@@ -601,13 +614,17 @@ footer{
       margin-left: 440px;
       margin-top: 20px;
       position: fixed;
-      color: cyan;
+      color: var(--secondary-color);
     }
     #check{
       display: block;
     }
     nav i{
-      margin: 10px 0px 0px 230px;
+      margin: 0px 0px 0px 198px;
+    }
+    marquee{
+      position: fixed;
+      top: 0;
     }
  
     /* ------------------------------------------------------futer contant----------------------------------------- */
@@ -617,18 +634,22 @@ footer{
     footer{
       display: block;
       color: var(--secondary-color);
-      position: relative;
+      /* position: relative; */
       margin: 10px 10px;
     }
     .footerDittles{
       width: 100%;
+      position: relative;
     }
     .footerDittles ul{
       margin: 0px 5px 0px -40px;
       text-align: center;
     }
 /* --------------------------------------------------------------Home----------------------------------------------- */
-    .lorem {
+    .container{
+      top: -40px;
+    }
+   .lorem {
       padding: 1px 0px 50px 10px;
       width: 100%;
       background-color: rgb(249 250 215 / 28%);
@@ -644,7 +665,8 @@ footer{
       color: white;
       height: 210px;
       width: 100%;
-      margin-top: 222px;
+      top: 0px;
+      position: relative;
     }
     .computerTecnology .all-sit{
       display: block;
@@ -665,7 +687,7 @@ footer{
     .left-style {
       height: 30px;
       width: 40%;
-      background-color: greenyellow;
+      background-color: #33FF33;
       border-radius: 0% 50px 0% 0%;
       text-align: center;
       color: black;
