@@ -150,6 +150,7 @@ marquee{
   height: 54px;
   padding-top: 5px;
   color: #33FF33;
+  z-index: 100000;
 }
 /* ----------------------------------------------------Home------------------------------ */
 /* Slideshow container */
@@ -574,7 +575,7 @@ footer{
       left: -250px;
       top: 0;
     }
-  #check:checked ~ .navber{
+    #check:checked ~ .navber{
       left: 0;
     }
     .top{
@@ -611,10 +612,13 @@ footer{
       background-color: var(--praymary-color);
     }
     .thrdline{
-      margin-left: 440px;
-      margin-top: 20px;
+      margin-left: 480px;
+      margin-top: 60px;
       position: fixed;
-      color: var(--secondary-color);
+      
+      height: 30px;
+      width: 50px;
+      background-color: var(--secondary-color);
     }
     #check{
       display: block;
@@ -622,20 +626,24 @@ footer{
     nav i{
       margin: 0px 0px 0px 198px;
     }
+    input[type=checkbox]{
+      margin-top: -15px;
+      
+    }
     marquee{
       position: fixed;
       top: 0;
     }
- 
+    
     /* ------------------------------------------------------futer contant----------------------------------------- */
     hr{
-      margin-top: 200px;
+      margin-top: 10px;
     }
     footer{
       display: block;
       color: var(--secondary-color);
       /* position: relative; */
-      margin: 10px 10px;
+      margin: 0px 10px;
     }
     .footerDittles{
       width: 100%;
@@ -700,5 +708,17 @@ footer{
     }
 
   }
-  /* --------------------------------------------------------Responsive for tablet------------------------------------------------ */
-  
+  /*-----------------------------------------------------------history part----------------------------------*/
+  .History-all{
+    padding-top: 380px;
+  }
+  .all-sit{
+    padding: 0px 10px;
+  }
+  .left-sit{
+    padding: 0px;
+  }
+  /* --------------------------------------------------------staff part------------------------------------------------ */
+  .staff{
+    margin-top: 20px;
+  }
