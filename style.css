@@ -639,6 +639,9 @@ footer{
     hr{
       margin-top: 10px;
     }
+    #hr{
+      margin-top: 200px;
+    }
     footer{
       display: block;
       color: var(--secondary-color);
