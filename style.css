@@ -140,6 +140,9 @@ nav h1 img{
     background-color: var(--praymary-color);
     color: var(--secondary-color);
 } */
+.mobil-nav-top-style{
+  display: none;
+}
 
 /*------------------------------------------marque----------------------*/
 marquee{
@@ -151,6 +154,9 @@ marquee{
   padding-top: 5px;
   color: #33FF33;
   z-index: 100000;
+}
+marquee img{
+  display: none;
 }
 /* ----------------------------------------------------Home------------------------------ */
 /* Slideshow container */
@@ -571,10 +577,55 @@ footer{
       left: 0;
     }
     .top{
-      display: none;
+      height: 100%;
+      width: 250px;
+      display: block;
+      position: fixed;
+      left: -250px;
+      top: 0;
     }
     .top-style{
-      display: none;
+      margin-top: -87px;
+      margin-left: 387px;
+      height: 87px;
+      width: 97px;
+      display: block;
+      left: -509px;
+      top: 0;
+      background: none;
+    }
+  
+    .top-style button {
+      height: 20px;
+      width: 100px;
+      display: inline-block;
+      margin: 200px 0px 0px 117px;
+      position: fixed;
+      left: -76%;
+    }
+    #check:checked ~ .top-style button{
+      left: 0;
+    }
+    .top-style h4{
+      margin: 152px 0px 0px 114px;
+      color: var(--secondary-color);
+      position: fixed;
+      left: -76%;
+    }
+    #check:checked ~ .top-style h4{
+      left: 0;
+    }
+    .top-style ul{
+      margin: 109px 0px 0px -24px;
+      position: fixed;
+      left: -76%;
+    }
+    #check:checked ~ .top-style ul{
+      left: 0;
+    }
+    .top-style ul li a{
+      margin-right: 30px;
+      color: var(--secondary-color);
     }
     nav{
       height: 100%;
@@ -590,7 +641,7 @@ footer{
     nav h1{
       border: none;
       width: 0px;
-      margin: 50px 0px 0px 0px;
+      margin: 50px 0px 0px -10px;
     }
     .demo{
       display: block;
@@ -617,6 +668,9 @@ footer{
     nav i{
       margin: 20px 0px 0px 178px;
     }
+    .dextop-nav-top-style{
+      display: none;
+    }
     input[type=checkbox]{
       margin-top: -15px;
       
@@ -625,7 +679,9 @@ footer{
       position: fixed;
       top: 0;
     }
-    
+    marquee img{
+      display: inline-block;
+    }
     /* ------------------------------------------------------futer contant----------------------------------------- */
     hr{
       margin-top: 10px;
