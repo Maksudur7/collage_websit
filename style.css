@@ -154,6 +154,7 @@ marquee{
 }
 /* ----------------------------------------------------Home------------------------------ */
 /* Slideshow container */
+
 .slideshow-container {
   max-width: 100%;
   position: relative;
@@ -226,20 +227,12 @@ img{
     vertical-align: middle;
     cursor: pointer;
 }
-.lorem{
-    padding:15px 150px 50px 150px;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.144);
-    z-index: -1;
-    margin-top: -300px;
-    color: var(--secondary-color);
-}
 .computerTecnology{
     background-color: darkslategrey;
     color: white;
     height: 210px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 10px;
     position: static;
 }
 .left-style{
@@ -252,15 +245,15 @@ img{
     color: black;
     font-size: 1.5rem;
 }
-.all-sit{
-    padding: 0px 120px;
-    display: flex;
-}
-.left-sit{
-    padding: 45px;
+.all-sit {
+  padding: 0px 140px;
+  display: flex;
 }
 .rit-sit{
     padding:5px 20px 5px 10px;
+}
+.left-sit{
+  margin-top: 30px;
 }
 .rit-sit img{
     height: 200px;
@@ -287,16 +280,15 @@ img{
 .left-style h1{
     margin-left: 90px;
 }
-.all-sit{
-    padding: 0px 120px;
+/* .all-sit{
     display: flex;
 }
 .left-sit{
-    padding: 45px;
+    padding: 0px 120px;
 }
 .rit-sit{
     padding:5px 20px 5px 10px;
-}
+} */
 .rit-sit img{
     height: 200px;
     
@@ -612,19 +604,18 @@ footer{
       background-color: var(--praymary-color);
     }
     .thrdline{
-      margin-left: 480px;
+      margin-left: 460px;
       margin-top: 60px;
       position: fixed;
-      
       height: 30px;
-      width: 50px;
+      width: 70px;
       background-color: var(--secondary-color);
     }
     #check{
       display: block;
     }
     nav i{
-      margin: 0px 0px 0px 198px;
+      margin: 20px 0px 0px 178px;
     }
     input[type=checkbox]{
       margin-top: -15px;
@@ -676,16 +667,15 @@ footer{
       color: white;
       height: 210px;
       width: 100%;
-      top: 0px;
+      top: -20px;
       position: relative;
     }
-    .computerTecnology .all-sit{
+     .all-sit{
       display: block;
       padding: 0;
     }
-    .computerTecnology .left-sit{
+    .left-sit{
       padding: 10px;
-      margin-top: -95px;
     }
     .computerTecnology .rit-sit {
       padding: 5px 0px 5px 0px;
@@ -715,12 +705,7 @@ footer{
   .History-all{
     padding-top: 380px;
   }
-  .all-sit{
-    padding: 0px 10px;
-  }
-  .left-sit{
-    padding: 0px;
-  }
+  
   /* --------------------------------------------------------staff part------------------------------------------------ */
   .staff{
     margin-top: 20px;
