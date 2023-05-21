@@ -782,11 +782,11 @@ footer{
       margin-left: -20px;
     }
     .principle .all-dep{
-      width: 350px !important;
+      width: 340px !important;
       margin:20px 0px !important;
     }
     .principle .all-dep img{
-      width: 350px !important;
+      width: 340px !important;
     }
     .part2 .all-dep{
       width: 300px !important;
@@ -817,3 +817,7 @@ footer{
   #calendar{
     margin:20px 0 !important;
   }
+/*-------------------------------------------------------------student------------------------------------------------------*/
+.left-sit iframe{
+  width: 340px !important;
+}
