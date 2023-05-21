@@ -775,25 +775,23 @@ footer{
       display: block;
     }
     .techers{
-      margin: 50px 0px;
+      margin: 50px 10px;
       text-align: center;
     }
     .left-style-techers{
       margin-left: -20px;
     }
     .principle .all-dep{
-      width: 250px !important;
-      margin:20px 5px 0px 5px !important;
+      width: 300px !important;
+      margin:20px 0px !important;
     }
     .principle .all-dep img{
-      width: 250px !important;
-    }
-    .part2{
-      margin: 10px;
+      width: 300px !important;
     }
     .part2 .all-dep{
       width: 300px !important;
       height: 400px !important;
+      margin: 20px 0px !important;
     }
     .part2 .all-dep img{
       width: 300px !important;
