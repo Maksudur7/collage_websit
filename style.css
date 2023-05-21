@@ -781,9 +781,6 @@ footer{
     .left-style-techers{
       margin-left: -20px;
     }
-    .principle{
-      display: flex !important;
-    }
     .principle .all-dep{
       width: 250px !important;
       margin:20px 5px 0px 5px !important;
@@ -792,14 +789,14 @@ footer{
       width: 250px !important;
     }
     .part2{
-      margin-left: 20px;
+      margin: 10px;
     }
     .part2 .all-dep{
-      width: 400px !important;
+      width: 300px !important;
       height: 400px !important;
     }
     .part2 .all-dep img{
-      width: 400px !important;
+      width: 300px !important;
       height: 250px !important;
     }
     /* --------------------------------------------------------staff part------------------------------------------------ */
