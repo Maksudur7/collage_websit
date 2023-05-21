@@ -782,16 +782,16 @@ footer{
       margin-left: -20px;
     }
     .principle .all-dep{
-      width: 300px !important;
+      width: 350px !important;
       margin:20px 0px !important;
     }
     .principle .all-dep img{
-      width: 300px !important;
+      width: 350px !important;
     }
     .part2 .all-dep{
       width: 300px !important;
       height: 400px !important;
-      margin: 20px 0px !important;
+      margin: 20px 25px !important;
     }
     .part2 .all-dep img{
       width: 300px !important;
