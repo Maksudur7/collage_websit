@@ -19,6 +19,7 @@ body {
     --secondary-color:white;
     
 }
+
 /* -----------------------------------------------Nav Section--------------------------------------------- */
 header{
     height: 80px;
@@ -53,10 +54,10 @@ header{
 }
 .top-style{
     height: 40px;
-    width: 50%;
+    width: 49%;
     background-color: #33FF33;
-    margin-left: 50%;
-    margin-top: -90px;
+    margin-left: 51%;
+    margin-top: -100px;
     border-radius: 50px 0px 0px 0px;
     display: flex;
     position: relative;
@@ -64,13 +65,14 @@ header{
 .top-style button{
     height: 20px;
     width:100px ;
-    display: inline-block;
-    margin-left: 40%;
-    margin-top: 10px;
+    display: flex;
+    margin-left: 77%;
+    margin-top: -32px;
 }
 .top-style ul{
     display: flex;
     margin-left: 100px;
+    padding-top: 10px;
 }
 .top-style ul li{
     list-style: none;
@@ -86,39 +88,76 @@ body{
     margin: 0 auto;
     padding: 0;
 }
+body{
+  margin: 0 auto;
+  padding: 0;
+}
+
 nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 50px;
-    background-color: var(--praymary-color);
-    color: var(--secondary-color);
-    height: 60px;
-    border: 2px solid var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  background-color: var(--praymary-color);
+  height: 60px;
+  cursor: pointer;
+  border: 2px solid var(--secondary-color);
 }
 
 nav ul li a{
-    text-decoration: none;
-    color: var(--secondary-color);
+  text-decoration: none;
+  color: var(--secondary-color);
 }
 nav ul li{
-    list-style: none;
-   padding-top: 3px;
-   
+  list-style: none;
+  height: 40px;
+  width: 140px;
+  background-color: var(--praymary-color);
+}
+
+nav ul li:hover{
+  background-color: #33FF33;
 }
 .demo{
-    display: flex;
+  display: flex;
+  
 }
 .second-demo{
-    display: inline-block;
-    text-align: center;
-    width: 122px;
-    height: 30px;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+  height: 30px;
 }
-#pTag{
-    margin-top: 19px;
-    background-color: var(--praymary-color);
-    padding: 3px;
-    border: 1px solid var(--secondary-color);
+
+.second-demo:hover{
+  text-align: center;
+}
+.slid-demo ul{
+  margin-left: -40px;
+  text-align: center;
+}
+.slid-demo ul li{
+  display: none;
+  padding: 10px;
+  border: 2px solid wheat;
+  border-style: solid none solid none;
+}
+.slid-demo:hover ul li{
+  display: block;
+}
+.slid-demo ul li a{
+  height: 20px;
+  width: 100px;
+  margin: 50px 0px;
+}
+#UlTopMarjin{
+  margin-top: 7px;
+}
+.fristLi{
+  border-radius: 5px;
+  padding-top: 5px;
+}
+.clander{
+  width: 150px;
 }
 nav h1{
     margin-top: 56px;
@@ -131,19 +170,14 @@ nav h1{
 nav h1 img{
     height: 100px;
     width: 100px;
-    margin-top: -39px;
-}
+    margin-top: -42px;
+} 
 #check{
   display: none;
 }
-/* .active{
-    background-color: var(--praymary-color);
-    color: var(--secondary-color);
-} */
 .mobil-nav-top-style{
-  display: none;
+  display: block;
 }
-
 /*------------------------------------------marque----------------------*/
 marquee{
   font-size: 2rem;
@@ -242,27 +276,27 @@ img{
     position: static;
 }
 .left-style{
-    height: 50px;
-    width: 40%;
-    background-color:#33FF33 ;
-    border-radius: 0% 50px 0% 0%;
-    margin-top: -265px;
-    text-align: center;
-    color: black;
-    font-size: 1.5rem;
+  height: 50px;
+  width: 40%;
+  background-color:#33FF33 ;
+  border-radius: 0% 50px 0% 0%;
+  margin-top: -265px;
+  text-align: center;
+  color: black;
+  font-size: 1.5rem;
 }
 .all-sit {
   padding: 0px 140px;
   display: flex;
 }
 .rit-sit{
-    padding:5px 20px 5px 10px;
+  padding:5px 20px 5px 10px;
 }
 .left-sit-lorem{
   margin-top: 30px;
 }
 .rit-sit img{
-    height: 200px;
+  height: 200px;
     
 }
 
@@ -554,15 +588,26 @@ footer{
 }
 .footerDittles h1{
   text-align: center;
- 
+}
+.footerDittlesImage img{
+  height: 200px;
+  width: 200px;
+}
+.footerDittlesImage h4{
+  text-align: center;
 }
 .footerDittles ul li {
   list-style: none;
   margin-bottom: 10px;
+  margin-left: 30px;
 }
 .footerDittles ul li a{
   text-decoration: none;
   color: var(--secondary-color);
+}
+.footerDittles ul li img{
+  height: 50px;
+  width: 80px;
 }
 .img-slide{
   background-size: cover;
@@ -591,6 +636,9 @@ footer{
       left: -250px;
       top: 0;
     }
+    .top ul li a{
+      display: none;
+    }
     .top-style{
       margin-top: -87px;
       margin-left: 387px;
@@ -601,12 +649,11 @@ footer{
       top: 0;
       background: none;
     }
-  
     .top-style button {
       height: 20px;
       width: 100px;
-      display: inline-block;
-      margin: 200px 0px 0px 116px;
+      display: block;
+      margin: 180px 0px 0px 112px;
       position: fixed;
       left: -76%;
     }
@@ -623,7 +670,7 @@ footer{
       left: 0;
     }
     .top-style ul{
-      margin: 109px 0px 0px -24px;
+      margin: 113px 0px 0px 57px;
       position: fixed;
       left: -76%;
     }
@@ -674,9 +721,6 @@ footer{
     }
     nav i{
       margin: 20px 0px 0px 178px;
-    }
-    .dextop-nav-top-style{
-      display: none;
     }
     input[type=checkbox]{
       margin-top: -15px;
